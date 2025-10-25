@@ -1,10 +1,11 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from dotenv import load_dotenv
+import os
+# from dotenv import load_dotenv
 
 api_key = os.getenv('TMDB_API_KEY')
-api_secret = os.getenv('TMDB_API_SECRET')
+access_token = os.getenv('TMDB_ACCESS_TOKEN')
 
 
 def recommend(movie):
