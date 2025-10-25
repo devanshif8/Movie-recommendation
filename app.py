@@ -3,8 +3,8 @@ import pickle
 import pandas as pd
 from dotenv import load_dotenv
 
-api_key = os.getenv('IMDB_API_KEY')
-api_secret = os.getenv('IMDB_API_SECRET')
+api_key = os.getenv('TMDB_API_KEY')
+api_secret = os.getenv('TMDB_API_SECRET')
 
 
 def recommend(movie):
